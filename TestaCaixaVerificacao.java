@@ -1,4 +1,4 @@
-package Exemplos;
+package ExemplosJava;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;

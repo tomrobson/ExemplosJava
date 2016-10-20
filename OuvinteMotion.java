@@ -1,4 +1,4 @@
-package Exemplos;
+package ExemplosJava;
 
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;

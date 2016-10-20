@@ -1,4 +1,4 @@
-package Exemplos;
+package ExemplosJava;
 
 import java.awt.event.MouseWheelEvent;
 import java.awt.event.MouseWheelListener;

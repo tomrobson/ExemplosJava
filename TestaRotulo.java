@@ -1,4 +1,4 @@
-package Exemplos;
+package ExemplosJava;
 
 import javax.swing.JLabel;
 import javax.swing.JFrame;

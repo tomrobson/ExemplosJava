@@ -1,4 +1,4 @@
-package Exemplos;
+package ExemplosJava;
 
 import java.awt.FlowLayout;
 import java.awt.event.KeyEvent;
@@ -12,7 +12,7 @@ import javax.swing.JTextArea;
 public class TestaAreaTexto {
 
     public static void main(String[] args) {
-        JLabel rotuloObs = new JLabel("Observação:");
+        JLabel rotuloObs = new JLabel("Observação (20 caracteres)");
         JTextArea campoObs = new JTextArea(5, 30);
         campoObs.setLineWrap(true);
         campoObs.setWrapStyleWord(true);
@@ -21,9 +21,10 @@ public class TestaAreaTexto {
         campoObs.addKeyListener(new KeyListener() {
             @Override
             public void keyTyped(KeyEvent e) {
-                if(campoObs.getText().length() >= 1999){
-                    
+                if(campoObs.getText().length() >= 20){
+                    e.setKeyChar('\0');
                 }
+                rotuloObs.setText("Observação (" + (20 - campoObs.getText().length()) + " caracteres)");
             }
 
             @Override

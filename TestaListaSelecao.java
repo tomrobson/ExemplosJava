@@ -1,4 +1,4 @@
-package Exemplos;
+package ExemplosJava;
 
 import java.awt.FlowLayout;
 import javax.swing.JList;

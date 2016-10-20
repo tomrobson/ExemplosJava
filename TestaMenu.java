@@ -1,4 +1,4 @@
-package Exemplos;
+package ExemplosJava;
 
 import javax.swing.JMenuBar;
 import javax.swing.JFrame;
